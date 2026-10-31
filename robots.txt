@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://monstrodainformatica.com.br/sitemap.xml
