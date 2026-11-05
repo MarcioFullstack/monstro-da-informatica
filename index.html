@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Conserto de Placa e CFTV em Fortaleza | Monstro da Informática</title>
 <meta name="description" content="Conserto de placa de notebook, câmeras de CFTV, PC Gamer, tela, teclado e bateria em Fortaleza. Orçamento grátis no WhatsApp e atendimento em domicílio.">
-<link rel="canonical" href="https://monstrodainformatica.com.br/">
+<link rel="canonical" href="https://monstrodainformatica.com/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#0F172A">
@@ -13,22 +13,20 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Conserto de Placa e CFTV em Fortaleza | Monstro da Informática">
 <meta property="og:description" content="Notebook não liga? Câmeras de segurança? Orçamento grátis no WhatsApp com garantia.">
-<meta property="og:url" content="https://monstrodainformatica.com.br/">
-<meta property="og:image" content="https://monstrodainformatica.com.br/og.jpg">
+<meta property="og:url" content="https://monstrodainformatica.com/">
+<meta property="og:image" content="https://monstrodainformatica.com/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" href="/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <script type="application/ld+json">
 {
  "@context":"https://schema.org",
  "@type":"ComputerStore",
  "name":"Monstro da Informática",
- "url":"https://monstrodainformatica.com.br/",
+ "url":"https://monstrodainformatica.com/",
  "telephone":"+5585991920202",
  "contactPoint":[{"@type":"ContactPoint","telephone":"+5585996873503","contactType":"customer service","description":"Atendimento em domicílio","areaServed":"Fortaleza","availableLanguage":"Portuguese"}],
- "image":"https://monstrodainformatica.com.br/og.jpg",
+ "image":"https://monstrodainformatica.com/og.jpg",
  "priceRange":"$$",
  "address":{"@type":"PostalAddress","addressLocality":"Fortaleza","addressRegion":"CE","addressCountry":"BR"},
  "areaServed":["Fortaleza","Caucaia","Maracanaú","Eusébio","Aquiraz"],
@@ -56,9 +54,10 @@
 </script>
 
 <style>
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:400 800;font-display:swap;src:url(/fonts/plus-jakarta-sans-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 :root{
   --ink:#0F172A; --ink2:#1E293B; --mut:#475569; --line:#E2E8F0; --bg:#F8FAFC; --white:#fff;
-  --brand:#1D4ED8; --brand-d:#1E40AF; --brand-l:#EFF4FF; --wa:#16A34A; --wa-d:#15803D;
+  --brand:#1D4ED8; --brand-d:#1E40AF; --brand-l:#EFF4FF; --wa:#15803D; --wa-d:#166534;
   --r:12px; --sh:0 1px 2px rgba(15,23,42,.06),0 8px 24px rgba(15,23,42,.06);
   --f:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,sans-serif;
 }
@@ -79,7 +78,7 @@ h1,h2,h3{line-height:1.15;letter-spacing:-.02em;font-weight:800}
 .btn-line{border-color:#475569;color:#fff}.btn-line:hover{background:rgba(255,255,255,.08)}
 .btn-lg{padding:11px 20px;font-size:.96rem}
 
-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px}
 .logo{white-space:nowrap;font-weight:800;font-size:1.15rem;letter-spacing:-.02em;display:flex;align-items:center;gap:9px}
 .logo i{display:grid;place-items:center;width:32px;height:32px;border-radius:8px;background:var(--brand);color:#fff;font-style:normal;font-size:.85rem}
@@ -199,6 +198,7 @@ footer strong{color:#fff;font-size:1.1rem}
 .btn-dx small,.bot-launch small{font:500 .7rem var(--f);opacity:1;margin-top:2px}
 .bot-launch{animation:botPulse 2.6s infinite}
 .bot-launch.open-state{animation:none}
+@media (prefers-reduced-motion:reduce){.bot-launch{animation:none}html{scroll-behavior:auto}}
 @keyframes botPulse{0%{box-shadow:0 8px 22px rgba(29,78,216,.45),0 0 0 0 rgba(29,78,216,.45)}70%{box-shadow:0 8px 22px rgba(29,78,216,.45),0 0 0 14px rgba(29,78,216,0)}100%{box-shadow:0 8px 22px rgba(29,78,216,.45),0 0 0 0 rgba(29,78,216,0)}}
 .bot-tip{position:fixed;left:14px;bottom:70px;z-index:59;width:min(300px,calc(100vw - 36px));background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 34px 14px 16px;box-shadow:0 14px 36px rgba(15,23,42,.22);display:flex;flex-direction:column;gap:3px;font-size:.88rem;color:var(--mut)}
 .bot-tip[hidden]{display:none}
@@ -671,7 +671,8 @@ document.addEventListener("keydown",function(e){ if(e.key==="Escape") close(); }
  function hide(){ tip.hidden=true; try{sessionStorage.setItem("tipSeen","1");}catch(e){} }
  x.addEventListener("click",hide); launch.addEventListener("click",hide);
  document.querySelectorAll("[data-open-bot]").forEach(function(b){ b.addEventListener("click",hide); });
- if(!seen) setTimeout(function(){ if(!box.classList.contains("open")){ tip.hidden=false; setTimeout(hide,12000); } },7000);
+ window.addEventListener("scroll",function(){ if(!tip.hidden&&window.scrollY>300) hide(); },{passive:true});
+ if(!seen) setTimeout(function(){ if(!box.classList.contains("open")&&window.scrollY<300){ tip.hidden=false; setTimeout(hide,8000); } },7000);
 })();
 document.querySelectorAll("[data-open-bot]").forEach(function(b){ b.addEventListener("click",open); });
 })();
