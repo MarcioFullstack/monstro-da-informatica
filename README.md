@@ -14,13 +14,15 @@ Commit e push na `main`. O GitHub Pages publica sozinho em ~1 minuto.
 ## Ao criar uma página nova
 Adicione a URL no `sitemap.xml`, defina `title`, `meta description` e `canonical` próprios e use um único `h1`.
 
-## Google Meu Negócio (rascunho; nada foi publicado)
+## Google Meu Negócio
+Perfil criado como **empresa com área de atendimento** (sem local visitável, endereço oculto). Falta a verificação (endereço de correspondência) e completar horário, descrição e serviços no painel.
 - **Nome:** Monstro da Informática
-- **Categoria principal:** Serviço de reparo de computadores
-- **Categorias adicionais:** Loja de informática; Instalador de sistema de segurança; Serviço de reparo de eletrônicos
+- **Categoria principal:** Suporte e serviços para computadores (a categoria "Serviço de reparo de computadores" não existe na lista em português)
+- **Categorias adicionais (sugestão):** Instalador de sistema de segurança (CFTV)
+- **Local visitável:** não. Atendimento em domicílio, **com agendamento prévio**
 - **Telefone:** (85) 99192-0202 (WhatsApp). Atendimento em domicílio: (85) 99687-3503
-- **Horário:** segunda a sábado, 8h às 18h
-- **Área de atendimento:** Fortaleza, CE
+- **Horário:** segunda a sábado, 8h às 18h, com agendamento prévio
+- **Área de atendimento (19 cidades da Região Metropolitana de Fortaleza):** Fortaleza, Caucaia, Maracanaú, Maranguape, Pacatuba, Eusébio, Aquiraz, Itaitinga, Guaiúba, Horizonte, Pacajus, Chorozinho, São Gonçalo do Amarante, Pindoretama, Cascavel, Paracuru, Paraipaba, São Luís do Curu e Trairi
 - **Site:** https://monstrodainformatica.com/
-- **Descrição curta (até 750 caracteres):** Conserto de placa de notebook, instalação e manutenção de câmeras de CFTV, venda de memórias, baterias, telas e teclados, instalação de sistemas e montagem de PC Gamer em Fortaleza. Atendimento em domicílio. Orçamento pelo WhatsApp, de segunda a sábado, das 8h às 18h.
+- **Descrição curta (até 750 caracteres):** Assistência técnica de informática em domicílio em Fortaleza e em toda a Região Metropolitana, com agendamento prévio. Conserto de placa de notebook, instalação e manutenção de câmeras de CFTV, troca de tela, teclado e bateria, upgrade de memória e SSD, instalação de sistemas, venda de insumos e montagem de PC Gamer. Orçamento pelo WhatsApp, de segunda a sábado, das 8h às 18h.
 - **Serviços:** conserto de placa de notebook; CFTV; troca de tela, teclado e bateria; upgrade de memória/SSD; formatação e instalação de sistemas; PC Gamer.
