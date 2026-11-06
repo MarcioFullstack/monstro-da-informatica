@@ -20,7 +20,7 @@ Perfil criado como **empresa com área de atendimento** (sem local visitável, e
 - **Categoria principal:** Suporte e serviços para computadores (a categoria "Serviço de reparo de computadores" não existe na lista em português)
 - **Categorias adicionais (sugestão):** Instalador de sistema de segurança (CFTV)
 - **Local visitável:** não. Atendimento em domicílio, **com agendamento prévio**
-- **Telefone:** (85) 99192-0202 (WhatsApp). Atendimento em domicílio: (85) 99687-3503
+- **Telefone:** (85) 99687-3503 (WhatsApp Business)
 - **Horário:** segunda a sábado, 8h às 18h, com agendamento prévio
 - **Área de atendimento (19 cidades da Região Metropolitana de Fortaleza):** Fortaleza, Caucaia, Maracanaú, Maranguape, Pacatuba, Eusébio, Aquiraz, Itaitinga, Guaiúba, Horizonte, Pacajus, Chorozinho, São Gonçalo do Amarante, Pindoretama, Cascavel, Paracuru, Paraipaba, São Luís do Curu e Trairi
 - **Site:** https://monstrodainformatica.com/
